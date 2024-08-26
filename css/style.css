@@ -1,4 +1,40 @@
+:root {
+  --border-blue: #00ccff;
+  --fill-blue: #1f218d;
+  --text-white: #ffffff;
+}
+
 h1{
-  border-color: #d3e644;
-  border-style: dashed;
+  border-color: var(--border-blue);
+  border-style: solid;
+  color: var(--text-white);
+  background-color: var(--fill-blue);
+  font-family: "Lucida Console", "Courier New";
+  text-indent: .5rem;
+  line-height: 3.5rem;
+}
+
+body {
+  background-color: rgb(141, 96, 141);
+  color: var(--text-white);
+}
+
+ul {
+  border-color: var(--border-blue);
+  border-style: solid;
+  background-color: var(--fill-blue);
+}
+
+img {
+  border-color: var(--border-blue);
+  border-style: solid;
+  border-width: 5px;
+}
+
+button {
+  font-size: 18px;
+  color: var(--text-white);
+  background-color: #8388d3ff;
+  border-color: var(--text-white);
+  border-radius: 8px;
 }

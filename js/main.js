@@ -4,15 +4,15 @@ window.onload = loaded;
  * Simple Function that will be run when the browser is finished loading.
  */
 function loaded() {
-    // Assign to a variable so we can set a breakpoint in the debugger!
-    const hello = sayHello();
-    console.log(hello);
+    // linke the "helloButton" to the sayHello function
+    document.getElementById("helloButton").onclick = sayHello;
 }
 
 /**
- * This function returns the string 'hello'
- * @return {string} the string hello
+ * This function creates an alert message that says hello
+ * @returns String "hello o/", mostly just so the test still passes
  */
 export function sayHello() {
-    return 'hello';
+    alert("hello o/");
+    return("hello");
 }
