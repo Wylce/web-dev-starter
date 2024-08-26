@@ -23,9 +23,11 @@ Click on the "Say Hello o/" button to see a friendly alert popup that says "hell
 
 ## Sources and Credits
 
-- W3 Schools for basic HTML and CSS syntax
-    -https://www.w3schools.com/tags/tag_button.asp
+- W3 Schools for basic HTML and CSS syntax  
+    -https://www.w3schools.com/tags/tag_button.asp  
     -https://www.w3schools.com/Css/default.asp
--StackOverflow for Javascript event listener syntax
+  
+- StackOverflow for Javascript event listener syntax  
     -https://stackoverflow.com/questions/1947263/using-an-html-button-to-call-a-javascript-function
--Shane Panter for starter code
+    
+- Shane Panter for starter code
