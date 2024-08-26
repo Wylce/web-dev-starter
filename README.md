@@ -1,7 +1,8 @@
 # Web Dev Starter Code
- Wylie Hansen
- CS 408
- August 25, 2024
+
+Wylie Hansen  
+CS 408  
+August 25, 2024
 
 ## Overview
 
